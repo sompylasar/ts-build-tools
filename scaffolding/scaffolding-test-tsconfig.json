@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../lib/test"
+  },
+  "include": [
+    "../test/**/*.ts",
+    "../typings/**/*.d.ts",
+    "../node_modules/@sompylasar/ts-build-tools/scaffolding/typings/**/*.d.ts"
+  ],
+  "exclude": [
+    "../node_modules"
+  ]
+}

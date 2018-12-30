@@ -1,0 +1,23 @@
+## OS-specific
+.DS_Store
+
+## Git
+!.keep
+
+## IDE-specific
+/.vscode/
+
+## Node-specific
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## Build
+/build/
+
+## Testing
+/coverage/
+/.nyc_output/
+
+# ----------------

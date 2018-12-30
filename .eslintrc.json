@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:node/recommended",
+    "plugin:jest/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "no-console": "off",
+    "no-unused-vars": "warn",
+    "no-constant-condition": "warn",
+    "no-use-before-define": "error"
+  },
+  "overrides": [
+    {
+      "files": ["*.test.js"],
+      "plugins": [
+        "jest"
+      ],
+      "rules": {
+        "no-unused-expressions": "off",
+        "node/no-unpublished-require": "off"
+      }
+    }
+  ]
+}

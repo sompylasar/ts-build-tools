@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [ "es5", "es6" ],
+    "module": "commonjs",
+    "outDir": "./lib",
+    "sourceMap": true,
+    "listFiles": false,
+    "listEmittedFiles": false,
+    "pretty": true,
+    "traceResolution": false,
+    "declaration": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "typeRoots": [
+      "./node_modules/@sompylasar/ts-build-tools/node_modules/@types",
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./typings/**/*.d.ts",
+    "./node_modules/@sompylasar/ts-build-tools/scaffolding/typings/**/*.d.ts"
+  ],
+  "exclude": [
+    "./node_modules"
+  ]
+}

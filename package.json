@@ -1,0 +1,63 @@
+{
+  "name": "@sompylasar/ts-build-tools",
+  "version": "1.0.0",
+  "description": "A command-line toolkit to manage a Node.js package written in TypeScript.",
+  "keywords": ["packages", "typescript"],
+  "author": "Ivan Babak <babak.john@gmail.com>",
+  "license": "MIT",
+  "repository": "github:sompylasar/ts-build-tools",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "files": [
+    "bin",
+    "scaffolding",
+    "src"
+  ],
+  "bin": {
+    "ts-build-tools": "./bin/cli.js"
+  },
+  "engines": {
+    "node": "^8.15.0"
+  },
+  "dependencies": {
+    "@types/chai": "4.0.4",
+    "@types/debug": "0.0.30",
+    "@types/mocha": "2.2.43",
+    "@types/node": "8.0.46",
+    "@types/sinon": "2.3.6",
+    "chai": "4.1.2",
+    "chalk": "2.3.0",
+    "cross-env": "5.1.0",
+    "custom-tslint-formatters": "2.1.1",
+    "debug": "3.1.0",
+    "fs-extra": "4.0.2",
+    "mocha": "4.0.1",
+    "npm-run-all": "4.1.1",
+    "npm-which": "3.0.1",
+    "nyc": "11.2.1",
+    "rimraf": "2.6.2",
+    "sinon": "4.0.1",
+    "ts-node": "3.3.0",
+    "tslint": "5.8.0",
+    "typescript": "2.5.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "jest": "^23.6.0",
+    "jest-date-mock": "^1.0.6",
+    "prettier": "^1.15.3"
+  },
+  "jest": {
+    "setupFiles": [
+      "jest-date-mock"
+    ]
+  },
+  "scripts": {
+    "lint": "eslint ./src",
+    "test": "jest"
+  }
+}

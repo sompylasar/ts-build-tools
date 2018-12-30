@@ -1,0 +1,115 @@
+{
+  "rules": {
+    "semicolon": [
+      true,
+      "always"
+    ],
+    "class-name": true,
+    "array-type": [
+      true,
+      "array"
+    ],
+    "curly": true,
+    "cyclomatic-complexity": [
+      true,
+      20
+    ],
+    "only-arrow-functions": [
+      true,
+      "allow-named-functions"
+    ],
+    // "no-console": [
+    //   true,
+    //   "log",
+    //   "error"
+    // ],
+    "no-var-keyword": true,
+    // "no-require-imports": true,
+    "triple-equals": [
+      true,
+      "allow-null-check"
+    ],
+    "indent": [
+      true,
+      "spaces"
+    ],
+    "eofline": true,
+    "prefer-const": true,
+    // "quotemark": [
+    //   true,
+    //   "double"
+    // ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-module",
+      "check-separator",
+      "check-type",
+      "check-typecast"
+    ],
+    "variable-name": [
+      true,
+      "check-format",
+      "allow-leading-underscore"
+    ],
+    "space-before-function-paren": [
+      true,
+      {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "no-trailing-whitespace": true,
+    "no-consecutive-blank-lines": [
+      true,
+      2
+    ],
+    "max-line-length": [
+      true,
+      200
+    ],
+    "no-use-before-declare": true,
+    "no-invalid-this": true,
+    // "prefer-for-of": true,
+    // "no-magic-numbers": true,
+    "no-any": true,
+    "member-access": true,
+    "typedef": [
+      true,
+      // "variable-declaration",
+      "property-declaration",
+      "call-signature",
+      "parameter",
+      "member-variable-declaration"
+    ],
+    "no-unused-variable": [
+      true,
+      "check-parameters"
+    ],
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "public-instance-field",
+          "protected-instance-field",
+          "private-instance-field",
+          "public-static-field",
+          "protected-static-field",
+          "private-static-field",
+          "public-constructor",
+          "protected-constructor",
+          "private-constructor",
+          "public-instance-method",
+          "protected-instance-method",
+          "private-instance-method",
+          "public-static-method",
+          "protected-static-method",
+          "private-static-method"
+        ]
+      }
+    ]
+  }
+}
